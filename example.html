@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dialog Example</title>
+  <link rel="stylesheet" href="example.css">
+</head>
+<body>
+  <div class="books-container"></div>
+  <button onclick="openDialog()">New Book</button>
+  <dialog id="myDialog">
+    <form action="">
+      <label>Title:</label>
+      <input type="text" name="title" required>
+      <label>Author:</label>
+      <input type="text" name="Author" required>
+      <label>Pages:</label>
+      <input type="number" name="pages" required>
+      <label>Is Read:</label>
+      <input type="checkbox" name="IsRead">
+      <button type="submit">Submit</button>
+    </form>
+  </dialog>
+  <script src="example.js"></script>
+</body>
+
+</html>
